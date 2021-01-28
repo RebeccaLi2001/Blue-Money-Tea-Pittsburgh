@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+	<meta name="author" content="Rebecca Li">
+	<meta name="keywords" content="Blue Monkey Tea,Pittsburgh, drinks">
+	<meta name="description" content="Blue Monkey Tea Pittsburgh">
+	
+	<title>Blue Monkey Tea</title>
+	
+	<!-- External Links to CSS files -->
+    <link rel="stylesheet" media="all" type="text/css" href="css/styles.css" />
+	<link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css" />
+	<link rel="stylesheet" media="screen and (max-width:480px)" href="css/stylesmobile.css" />
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+	<script src="js/jquery-ui.js"></script>	
+	<link href="https://fonts/googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	
+</head>
+
+<body>
+
+	<nav>
+		<div class="nav-wrapper">
+			<a href="index.html" class="brand-logo">Blue Monkey Tea Pittsburgh</a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="index.html">About</a></li>
+				<li><a href="tea.html">Tea</a></li>
+				<li class="active"><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+
+<div class="container">
+
+	<div id="content">
+
+	<h3>Contact</h3>
+
+	<table>
+		<tr>
+			<th>Category</th>
+			<th>Information</th> 
+		</tr>
+		<tr>
+			<td>Address</td>
+			<td>5872 Forbes Ave, Pittsburgh, PA 15217</td> 
+		</tr>
+		<tr>
+			<td>Phone number</td>
+			<td>+1 (412) 422-1606</td> 
+			
+		</tr>
+		<tr>
+			<td>Email address</td>
+			<td><a href="mailto:100teacups@gmail.com">100teacups@gmail.com</a></td> 
+		</tr>
+		<tr>
+			<td>Website</td>
+			<td><a href="https://www.pittsburghcuppa.com">https://www.pittsburghcuppa.com</a></td>
+		</tr>
+		<tr>
+			<td>Store Picture</td>
+			<td><img src="images/store.png" alt="store picture"></td>
+		</tr>
+		<tr>
+			<td>Location (Our Carnegie location closed in February of 2019.)</td>
+			<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.690081112336!2d-79.92238568462047!3d40.43786097936262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f200108c553d%3A0xa62923c0d2116c57!2sTea%20Pittsburgh%20Blue%20Monkey%20Tea!5e0!3m2!1sen!2sau!4v1585461460135!5m2!1sen!2sau"
+			 width="600" height="450" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> </td>
+		</tr>
+	</table> 
+
+	  <p>We regularly send the latest tea information and sales event via email. Tea lovers please sign up!!</p>
+	  
+	  
+	  <form onsubmit="return validate()">
+	  
+		<fieldset>
+			<legend>Sign up for our mailing list</legend>
+			<label for="uname">Name:</label> <br/>
+			<input type="text" id="uname" name="uname" value="" placeholder="Your name" size="20" maxlength ="250" required><br/><br/>
+			<label for="zip">Zip code:</label> <br>
+			<input type="text" id="zip" name="zip" value="" placeholder="15112"><br/><br/>
+	
+			<label for="flavor">Your favorite tea flavor:</label> <br/>
+			<input type="text" id="flavor" name="flavor" value="" placeholder="Blue Monkey Tea"><br/><br/>
+
+			<label>Please indicate if you want to receive updates via email:
+			<input type="checkbox" id="joinlist" name="joinlist"><span>Yes, please update me!</span><br/><br/>
+			</label><br/>
+		
+			
+			<label for="email">Please provide your email address:</label><br/>
+			<input type="email" id="email" name="email" value="" placeholder = "abc@defg.com" required ><br/><br/>
+			<a href="mailto:100teacups@gmail.com"><input type ="image" src="images/submit.png" alt="Submit"></a>
+		</fieldset>
+		
+		</form>
+	  	
+	</div>
+	
+	<footer class="page-footer">
+		<div class="container">
+			<div class="row">
+				<div class='col l12 s12'>
+					<a href="https://www.facebook.com/TeaPittsburgh/" target="_blank"><img src="images/facebook.png" alt="Facebook Logo"/></a>
+					<!--Image from https://www.flaticon.com/premium-icon/facebook-logo_2392485-->
+					<a href="https://www.instagram.com/bluemonkeytea/" target="_blank"><img src="images/instagram.png" alt="Instagram Logo"/></a>
+					<!--Image from https://www.flaticon.com/premium-icon/instagram_2392486-->
+					<a href="https://teapittsburgh.wordpress.com/" target="_blank"><img src="images/blog.png" alt="Blog Logo"/></a>
+					<!--Icons made by https://www.flaticon.com/authors/pixel-buddha-->
+					<a href="https://www.youtube.com/watch?v=aUntXEBgfHw"><img src="images/youtube.png" alt="Youtube Logo"/></a>
+					<!--<div>Icons made by https://www.flaticon.com/authors/roundicons-->
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+
+</div> 
+</body>
+
+</html>
